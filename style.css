@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+/* box 1 */
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #0F1111;
+    justify-content: space-evenly;
+    color: white;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width:100px;
+  
+}
+/* .height{
+    height: 50px;
+} use this class to make height of all options in panel equal*/
+.border{
+    border: 1.5px solid transparent;
+
+}
+.border:hover{
+    border:1.5px solid white ;
+
+}
+/* box 2 */
+.p-first{
+    margin-left: 15px;
+    color: #cccccc;
+    font-size: 0.85rem;
+    
+
+}
+.p-second{
+    margin-left: 3px;
+    font-size: 1rem;
+    color: white;
+}
+
+.add-icon{
+    
+    display: flex;
+    
+    align-items: center;
+  
+}
+/* box 3 */
+.nav-search{
+display: flex;
+background-color: pink;
+width: 620px;
+height: 40px;
+border-radius: 4px;
+justify-content: space-evenly;
+}
+.nav-search:hover{
+      border: 2px solid #febd68;
+}
+.search-select{
+  background-color: #e6e6e6;  
+  width: 50px;
+  text-align: center;
+ border-bottom-left-radius: 4px;
+ border-top-left-radius: 4px;
+ border: none;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 50px;
+    display: flex;
+    color: #0F1111;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+   font-size: 1.2rem;
+}
+.search-icon:hover{
+    background-color: orange;
+}
+/* box 4 */
+span{
+    font-size: 0.75rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box 5 */
+.nav-cart i /* this css applies only to icons present in nav-cart class */
+{
+  font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* second panel */
+.second-panel{
+    background-color: #232f3e;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+/* second panel box 1 */
+.all{
+    margin-left: 9px;
+   
+    font-weight: 700;
+}
+/* right (only) below css works for all the boxes in second panel */
+.s-panel{
+    font-size: 1rem;
+}
+.remaining{
+    width: 100%;
+}
+.space{
+    width: 40%;
+}
