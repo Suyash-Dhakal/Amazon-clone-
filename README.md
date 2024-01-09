@@ -12,6 +12,9 @@ Preview
 <img width="1470" alt="Amazon_clone_FinalPic1" src="https://github.com/Suyash-Dhakal/Amazon-clone-/assets/155954862/88561f72-2a50-47f3-96bc-46125cb280ca">
 <img width="1470" alt="Amazon_clone_FinalPic2" src="https://github.com/Suyash-Dhakal/Amazon-clone-/assets/155954862/50abc7a6-3a49-4259-ac50-84228602a088">
 
+
+
+
 Instructions
 
 To view the cloned Amazon index webpage:
